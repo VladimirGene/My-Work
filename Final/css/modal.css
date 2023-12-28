@@ -1,0 +1,117 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.608);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+.body--open-modal .modal {
+    opacity: 1;
+    visibility: visible;
+    padding: 15px;
+}
+.body--open-modal .modal__window {
+    transform: scale(1);
+}
+
+.modal__window {
+    display: flex;
+    flex-direction: column;
+    max-width: 428px;
+    min-height: 490px;
+    border-radius: 20px;
+    background: #fff9f4;
+    align-items: center;
+    position: relative;
+    padding: 0 60px 60px 60px;
+    transform: scale(0);
+    transition: var(--transition);
+}
+.modal__cancel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.modal__cancel path,
+.modal__cancel rect {
+    transition: var(--transition);
+}
+.modal__cancel:hover path {
+    stroke: #ac907a;
+}
+.modal__cancel:hover rect {
+    stroke: #ac907a;
+}
+
+.modal__content img {
+    width: 80%;
+    margin: -65px 0px 15px 20px;
+}
+.modal_title {
+    color: var(--color-title);
+    font-family: Gabriola;
+    font-size: 42px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+}
+
+.modal__text {
+    margin-bottom: 30px;
+}
+.field {
+    position: relative;
+    display: block;
+}
+.input {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: 1px solid #ac907a;
+    padding: 19px 30px;
+    font-size: 16px;
+    width: 100%;
+    transition: var(--transition);
+}
+.field__input:focus {
+    padding: 26px 30px 12px 30px;
+}
+
+.input::placeholder {
+    color: #ac907a;
+    transition: var(--transition);
+}
+
+.field {
+    position: relative;
+}
+.field span {
+    position: absolute;
+    top: 9px;
+    left: 31px;
+    font-size: 11px;
+    color: #ac907a;
+    width: 100px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+.field__input:focus + span {
+    opacity: 1;
+    visibility: visible;
+}
+.field__input:focus::placeholder {
+    color: transparent;
+}
+
+.modal__button {
+    width: 100%;
+}
