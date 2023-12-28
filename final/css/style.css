@@ -322,9 +322,6 @@
     }
 
     /* ------------------------- */
-    .footer {
-        margin-top: 70px;
-    }
     .footer__inner {
         grid-template-columns: none;
         grid-template-rows: repeat(1, 1fr);
