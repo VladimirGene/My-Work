@@ -80,8 +80,10 @@ body {
 .header__nav {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 	gap: 60px;
 	position: relative;
+	width: 100%;
 }
 
 .nav__list {
@@ -625,6 +627,9 @@ body {
 		flex-direction: column;
 		gap: 30px;
 	}
+	.header__nav {
+		justify-content: center;
+	}
 	.header__nav::before {
 		position: absolute;
 		top: -16px;
@@ -720,7 +725,6 @@ body {
 		z-index: 5;
 		transform: rotate(0deg);
 		transition: 0.5s ease-in-out;
-		cursor: pointer;
 	}
 	.nav__list {
 		display: flex;
@@ -755,8 +759,17 @@ body {
 		display: none;
 	}
 	.header__nav {
-		gap: 360px;
+		display: flex;
 		padding-top: 20px;
+		justify-content: space-between;
+	}
+	.burger {
+		position: static;
+		margin-left: 10px;
+	}
+	.header__basket {
+		position: static;
+		margin-right: 10px;
 	}
 	.header {
 		background: #ffffff;

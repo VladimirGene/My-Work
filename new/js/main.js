@@ -28,7 +28,7 @@
 
 	// Бургер
 	
-	const burger = document.querySelector('.burger ')
+	const burger = document.querySelector('.burger')
 
 	burger.addEventListener('click', toggleBurger);
 
@@ -48,8 +48,22 @@
 		} else {
 			openMenu.classList.add('body--burger-show')
 		}
+		
 	}
+	const closeLink = document.querySelectorAll('.nav__link');
+	console.log(closeLink)
+
 	
+	closeLink.forEach(function (item) {
+		item.addEventListener('click', function(){
+			openMenu.classList.remove('body--burger-show');
+			burger.classList.remove('burger--open')
+		})
+	});
+	
+	
+	
+
 
 
 })()
