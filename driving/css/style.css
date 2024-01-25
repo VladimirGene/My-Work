@@ -1030,10 +1030,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 610px;
-  height: 740px;
+  width: 550px;
+  height: 650px;
   border-radius: 15px;
-  padding: 50px 86px;
+  padding: 20px 50px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1071,7 +1071,7 @@ html {
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   text-transform: uppercase;
 }
 .modal__start span {
@@ -1083,7 +1083,7 @@ html {
   font-family: "Century Gothic";
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 43px;
+  padding-bottom: 20px;
 }
 .modal__text span {
   font-weight: 700;
@@ -1106,11 +1106,11 @@ html {
   border-radius: 10px;
   background: #EFEFEF;
   width: 429px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .modal__email {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .modal__button {
@@ -1152,10 +1152,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 610px;
-  height: 740px;
+  width: 550px;
+  height: 650px;
   border-radius: 15px;
-  padding: 40px 80px;
+  padding: 20px 50px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1199,7 +1199,7 @@ html {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .modal__start-black span {
   font-weight: 700;
@@ -1211,7 +1211,7 @@ html {
   font-family: "Century Gothic";
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 43px;
+  padding-bottom: 20px;
 }
 .modal__text-black span {
   font-weight: 700;
