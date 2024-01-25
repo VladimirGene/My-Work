@@ -1,4 +1,3 @@
-
 @media (max-width: 1200px) {
 
     .wrapper {
@@ -186,8 +185,7 @@
         margin-bottom: 10vh;
     }
 
-    .main__about {
-    }
+    .main__about {}
 
     .text__heading {
         font-size: 14px;
@@ -204,11 +202,13 @@
     .footnote__text {
         font-size: 11px;
     }
+
     .main__reward {
         margin-bottom: 10vh;
     }
+
     .main__questions {
-        margin-bottom: 0vh; 
+        margin-bottom: 0vh;
     }
 
     .reward__content {
@@ -233,9 +233,7 @@
         max-height: none;
     }
 
-    .footer {
-        margin-bottom: -10vh;
-    }
+
 }
 
 
@@ -311,7 +309,7 @@
 
     .footer__inc {
         display: flex;
-        margin-top: 70px;
+        margin-top: 30px;
         flex-direction: column;
         align-items: center;
         justify-items: center;
@@ -366,6 +364,7 @@
     .modal-wrapper-black {
         width: 600px;
     }
+
     .welcome__img-mobile {
         img {
             width: 70%;
@@ -558,7 +557,7 @@
     }
 
 
-    
+
 }
 
 

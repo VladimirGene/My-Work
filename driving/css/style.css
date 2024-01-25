@@ -167,6 +167,7 @@ html {
   background: url("../image/background/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 
 .main {
@@ -705,6 +706,7 @@ html {
 
 .questions__head-desktop {
   max-width: 750px;
+  padding-bottom: 20px;
 }
 
 .accordeon {
@@ -873,7 +875,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 140px;
+  margin-top: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1451,9 +1453,6 @@ html {
     margin-top: 60px;
     max-height: none;
   }
-  .footer {
-    margin-bottom: -10vh;
-  }
 }
 @media (max-width: 1000px) {
   .nav__marafon {
@@ -1509,7 +1508,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 70px;
+    margin-top: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
