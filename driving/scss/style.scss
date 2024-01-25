@@ -22,17 +22,6 @@
     position: relative;
   }
 
-  &__cloud {
-    position: absolute;
-    top: 61%;
-    left: 0%;
-    right: 0%;
-    pointer-events: none;
-
-    img {
-      width: 100%;
-    }
-  }
 }
 
 .nav {
@@ -220,12 +209,10 @@
 
 .main {
   &__tasks {
-    padding-top: 400px;
+    margin-top: 80vh;
+    margin-bottom: 30vh;
   }
 
-  &__tasks {
-    padding-bottom: 200px;
-  }
 }
 
 
@@ -265,7 +252,7 @@
 
 // MAIN-ABOUT===================================================================================================
 .main__about {
-  padding-bottom: 200px;
+  margin-bottom: 20vh;
 }
 
 .about {
@@ -397,7 +384,7 @@
   background-position: left top;
   background-repeat: no-repeat;
   margin-top: -5px;
-  padding-bottom: 200px;
+  margin-bottom: 30vh;
 }
 
 
@@ -531,14 +518,13 @@
 
 // ACCARDEON=======================================================================================================
 .main__questions {
-  padding-bottom: 200px;
+  margin-bottom: 20vh;
 }
 
 
 
 .questions__head-desktop {
   max-width: 750px;
-  padding-bottom: 93px;
 }
 
 .accordeon {
@@ -633,27 +619,18 @@
 
 // FOOTER====================================================================================================
 .footer {
-  position: relative;
-  padding-top: 400px;
+  padding-top: 20vh;
 }
 
-.footer__cloud {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  img {
-    width: 100%;
-  }
-}
 
 .footer__heading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
 }
-
+.footer__title {
+  padding-top: 30vh;
+}
 .footer__subtitle {
   padding-bottom: 60px;
 }
